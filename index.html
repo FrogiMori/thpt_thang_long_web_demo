@@ -1,13 +1,20 @@
 <!DOCTYPE html>
+<!-- ============================================================ -->
+<!-- TRANG CHỦ - Trường THPT Thăng Long, Hà Nội                   -->
+<!-- ============================================================ -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 
+<!-- ======================== HEAD - BẮT ĐẦU ======================== -->
 <head>
+  <!-- === META TAGS === -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="google-site-verification" content="IFv9AwNN3-oTJ0UqyXvfitOz7fZDWJHwcHDsghg6QtM" />
   <title>Trường THPT Thăng Long Thành phố Hà Nội</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
 
+
+  <!-- === CSS - Thư viện bên ngoài === -->
   <link rel="stylesheet" type="text/css"
     href="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/js/modal-message/modal-message.css" />
   <link rel="stylesheet" type="text/css"
@@ -33,6 +40,8 @@
     href="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/css/catnews.css">
   <link rel="stylesheet" type="text/css" href="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/css/custom.css">
 
+
+  <!-- === JAVASCRIPT - Thư viện bên ngoài === -->
   <script type="text/javascript"
     src="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/js/jquery-1.9.0.min.js"></script>
   <script type="text/javascript"
@@ -42,6 +51,7 @@
   <script type="text/javascript"
     src="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/js/ddsmoothmenu.js"></script>
 
+  <!-- === JAVASCRIPT - Khởi tạo Menu (ddsmoothmenu) === -->
   <script type="text/javascript">
     ddsmoothmenu.init({
       mainmenuid: "smoothmenu1", //menu DIV id
@@ -62,12 +72,14 @@
   <script type="text/javascript"
     src="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/js/jquery.nivo.slider.js"></script>
 
+  <!-- === JAVASCRIPT - Khởi tạo Nivo Slider === -->
   <script type="text/javascript">
     $(window).load(function () {
       $('#slider').nivoSlider();
     });
   </script>
 
+  <!-- === JAVASCRIPT - Các file JS bổ sung (global, ajax, modal) === -->
   <script type="text/javascript" src="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/js/global.js"></script>
   <script type="text/javascript"
     src="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/js/modal-message/ajax.js"></script>
@@ -75,14 +87,17 @@
     src="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/js/modal-message/modal-message.js"></script>
   <script type="text/javascript"
     src="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/js/modal-message/ajax-dynamic-content.js"></script>
+  <!-- === JAVASCRIPT - Biến toàn cục (URL gốc, đường dẫn ảnh, CSS) === -->
   <script>
     var NVCMS_URL = "https://www.thptthanglonghanoi.edu.vn";
     var URL_IMAGES = "https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/images";
     var URL_CSS = "https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/css";
   </script>
 
+  <!-- === CSS - File tuỳ chỉnh riêng (styles.css) === -->
   <link rel="stylesheet" type="text/css" href="styles.css" />
 
+  <!-- === JAVASCRIPT - Script bảo vệ Demo (vô hiệu hoá link, form, xử lý ảnh lỗi) === -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       document.querySelectorAll('a').forEach(function (link) {
@@ -111,10 +126,14 @@
   </script>
 
 </head>
+<!-- ======================== HEAD - KẾT THÚC ======================== -->
 
+<!-- ======================== BODY - BẮT ĐẦU ======================== -->
 <body>
 
+  <!-- ================ HEADER - BẮT ĐẦU ================ -->
   <header>
+    <!-- --- Thanh trên cùng (Email, Diễn đàn, Sitemap) --- -->
     <div class="top_header">
       <div class="content_header row">
         <ul>
@@ -124,6 +143,7 @@
         </ul>
       </div>
     </div>
+    <!-- --- Logo, Tên trường, Icon & Huân chương --- -->
     <div class="content_header row bg-header">
       <div class="logo span1"><a href="https://www.thptthanglonghanoi.edu.vn"><img
             src="https://www.thptthanglonghanoi.edu.vn/uploads/logo-2.png" style="max-width:115px;" /></a></div>
@@ -139,6 +159,7 @@
       </div>
     </div>
 
+    <!-- --- Menu điều hướng chính --- -->
     <div id="box_menu" class="content_header">
       <div id="menu">
         <div id="smoothmenu1">
@@ -389,11 +410,15 @@
     <!-- <div class="line280"></div>-->
 
   </header>
+  <!-- ================ HEADER - KẾT THÚC ================ -->
   <div class="clear"></div>
+  <!-- ================ MAIN CONTENT - BẮT ĐẦU ================ -->
   <main>
+    <!-- --- Slideshow / Banner chính --- -->
     <div class="fix-width">
       <!--        <embed width="1000" height="180" wmode="transparent" menu="false" type="application/x-shockwave-flash" ;="" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="https://www.thptthanglonghanoi.edu.vn/banner3.swf"></embed>-->
       <!-- <a target="_blank" href="https://thptthanglonghanoi.qom.vn/tintuc/"><img src="https://thptthanglonghanoi.qom.vn/themes/giaodienweb/images/banner-thpt-thanglong.jpg" alt="banner Trường thpt thăng long"/></a> -->
+      <!-- Swiper Slideshow -->
       <div class="swiper-container slide-home">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -455,12 +480,15 @@
         </div> -->
     </div>
     <div class="clear"></div>
+    <!-- --- Khu vực nội dung chính (Tin tức + Sidebar) --- -->
     <div class="fix-width">
       <!--  <a href="https://thptthanglonghanoi.qom.vn/tintuc/"><marquee behavior="scroll" scrollamount="3" direction="left" width="100%">
     <div style="color:#f00005;white-space:nowrap;font-size: 18px;">HAPPY NEW YEAR 2022!</div>
     </marquee></a> -->
       <div class="clear"></div>
+      <!-- === CỘT TRÁI (box_left) === -->
       <div class="box_left">
+        <!-- ▸ Mục: TIN TỨC - SỰ KIỆN (Carousel) -->
         <div class="itemIndex" style="margin-top:10px">
           <h2 class="title_index">TIN TỨC - SỰ KIỆN</h2>
           <div class="slider_news">
@@ -625,6 +653,7 @@
             <script type="text/javascript"
               src="https://www.thptthanglonghanoi.edu.vn/themes/giaodienweb/js/jcarousellite_1.0.1.js"></script>
 
+            <!-- Script: Khởi tạo Swiper + Carousel tin tức -->
             <script type="text/javascript">
               $(document).ready(function () {
                 var swiper = new Swiper(".slide-home", {
@@ -714,8 +743,10 @@
 
           </div>
         </div>
+        <!-- ▸ Kết thúc: TIN TỨC - SỰ KIỆN -->
 
       </div>
+      <!-- === CỘT PHẢI - Sidebar (box_right) === -->
       <div class="box_right">
         <div class="clear"></div>
 
@@ -728,8 +759,11 @@
     </div>
     </div>
     <div class="clear"></div>
+    <!-- === KHU VỰC CÁC MỤC TIN BÊN DƯỚI (full-width) === -->
     <div class="fix-width">
       <div class="box_left w-100">
+
+        <!-- ▸ Mục: TIN NHÀ TRƯỜNG -->
         <div class="box_news_index">
           <h2 class="title_index"><a href="https://www.thptthanglonghanoi.edu.vn/nhomtin/tin-nha-truong-101">Tin nhà
               trường</a></h2>
@@ -760,6 +794,8 @@
             </div>
           </div>
         </div>
+
+        <!-- ▸ Mục: HOẠT ĐỘNG THANH NIÊN -->
         <div class="box_news_index">
           <h2 class="title_index"><a href="https://www.thptthanglonghanoi.edu.vn/nhomtin/hoat-dong-thanh-nien-182">Hoạt
               động thanh niên</a></h2>
@@ -785,6 +821,8 @@
                 thêm</a></div>
           </div>
         </div>
+
+        <!-- ▸ Mục: HOẠT ĐỘNG CÂU LẠC BỘ -->
         <div class="box_news_index">
           <h2 class="title_index"><a href="https://www.thptthanglonghanoi.edu.vn/nhomtin/hoat-dong-cau-lac-bo-183">Hoạt
               động câu lạc bộ</a></h2>
@@ -810,6 +848,8 @@
                 thêm</a></div>
           </div>
         </div>
+
+        <!-- ▸ Mục: THÔNG BÁO (nhóm 218) -->
         <div class="box_news_index">
           <h2 class="title_index"><a href="https://www.thptthanglonghanoi.edu.vn/nhomtin/thong-bao-218">Thông báo</a>
           </h2>
@@ -837,6 +877,8 @@
             </div>
           </div>
         </div>
+
+        <!-- ▸ Mục: CÁC KÌ THI HỌC SINH GIỎI - OLYMPIC -->
         <div class="box_news_index">
           <h2 class="title_index"><a
               href="https://www.thptthanglonghanoi.edu.vn/nhomtin/cac-ki-thi-hoc-sinh-gioi--olympic-185">Các kì thi Học
@@ -865,6 +907,8 @@
             </div>
           </div>
         </div>
+
+        <!-- ▸ Mục: NGHIÊN CỨU KHOA HỌC - STEM -->
         <div class="box_news_index">
           <h2 class="title_index"><a
               href="https://www.thptthanglonghanoi.edu.vn/nhomtin/nghien-cuu-khoa-hoc-stem-186">Nghiên cứu khoa học -
@@ -893,6 +937,8 @@
                 href="https://www.thptthanglonghanoi.edu.vn/nhomtin/nghien-cuu-khoa-hoc-stem-186">Xem thêm</a></div>
           </div>
         </div>
+
+        <!-- ▸ Mục: GÓC HỌC SINH -->
         <div class="box_news_index">
           <h2 class="title_index"><a href="https://www.thptthanglonghanoi.edu.vn/nhomtin/goc-hs-81">GÓC HỌC SINH</a>
           </h2>
@@ -918,6 +964,8 @@
             <div class="view_more"><a href="https://www.thptthanglonghanoi.edu.vn/nhomtin/goc-hs-81">Xem thêm</a></div>
           </div>
         </div>
+
+        <!-- ▸ Mục: KHỐI LIÊN KẾT QUỐC TẾ -->
         <div class="box_news_index">
           <h2 class="title_index"><a href="https://www.thptthanglonghanoi.edu.vn/nhomtin/khoi-lien-ket-quoc-te-167">Khối
               liên kết Quốc tế</a></h2>
@@ -946,6 +994,8 @@
                 thêm</a></div>
           </div>
         </div>
+
+        <!-- ▸ Mục: GƯƠNG SÁNG -->
         <div class="box_news_index">
           <h2 class="title_index"><a href="https://www.thptthanglonghanoi.edu.vn/nhomtin/guong-sang-170">Gương sáng</a>
           </h2>
@@ -975,6 +1025,8 @@
             </div>
           </div>
         </div>
+
+        <!-- ▸ Mục: THÔNG BÁO (nhóm 174) -->
         <div class="box_news_index">
           <h2 class="title_index"><a href="https://www.thptthanglonghanoi.edu.vn/nhomtin/thong-bao-174">Thông báo</a>
           </h2>
@@ -1007,11 +1059,14 @@
     </div>
     </div>
   </main>
+  <!-- ================ MAIN CONTENT - KẾT THÚC ================ -->
+
+  <!-- ================ FOOTER - BẮT ĐẦU ================ -->
   <footer>
     <div class="footer-main">
       <div class="fix-width">
         <div class="footer-grid">
-          <!-- Cột 1: Thông tin trường -->
+          <!-- Cột 1: Thông tin giới thiệu trường -->
           <div class="footer-col">
             <h3 class="footer-heading">Trường THPT Thăng Long</h3>
             <p class="footer-desc">
@@ -1051,13 +1106,16 @@
         </div>
       </div>
     </div>
+    <!-- --- Footer bottom: Copyright --- -->
     <div class="footer-bottom">
       <div class="fix-width">
         <p>© 2025 Trường THPT Thăng Long, Hà Nội. Tất cả quyền được bảo lưu.</p>
       </div>
     </div>
   </footer>
+  <!-- ================ FOOTER - KẾT THÚC ================ -->
 
 </body>
+<!-- ======================== BODY - KẾT THÚC ======================== -->
 
 </html>
